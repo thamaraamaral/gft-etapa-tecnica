@@ -1,0 +1,9 @@
+package entities;
+
+public class Caixa {
+
+	public static calculaValorFinal(Produto produto, int quantidade) {
+		return ;
+	}
+	
+}

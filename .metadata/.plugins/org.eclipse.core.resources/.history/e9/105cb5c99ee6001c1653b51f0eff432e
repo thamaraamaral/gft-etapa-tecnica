@@ -1,0 +1,28 @@
+package principal;
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class Program {
+
+    public static void main(String[] args) {
+
+    	Scanner scanner = new Scanner(System.in);
+    	
+        Random geradorAleatorios = new Random();
+
+        Integer numeroAleatorio = geradorAleatorios.nextInt(11);
+        
+        
+        System.out.print("Digite um número entre 0 e 10: ");
+        Integer numero = scanner.nextInt();
+        
+        if (numero == numeroAleatorio) {
+        	
+        }
+        
+        
+        
+    }
+}

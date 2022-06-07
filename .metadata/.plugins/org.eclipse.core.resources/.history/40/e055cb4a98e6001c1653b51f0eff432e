@@ -1,0 +1,9 @@
+package entities;
+
+public class Caixa {
+
+	public double calculaValorFinal(Produto produto, int quantidade) {
+		return produto.getValor() * quantidade;
+		Double valorFinal = 0;
+	}
+}

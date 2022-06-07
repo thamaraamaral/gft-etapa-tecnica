@@ -1,0 +1,15 @@
+package entities;
+
+public class Caixa {
+
+	public double calculaValorFinal(Produto produto, int quantidade) {
+		if (produto.getTipo() == 1) {
+			double desconto10 = (produto.getValor()*quantidade)*0.10;
+			return (produto.getValor()*quantidade) - desconto10;
+		}
+		if (produto.getTipo() == 2){
+			return 
+		}
+		return produto.getValor() * quantidade;
+	}
+}

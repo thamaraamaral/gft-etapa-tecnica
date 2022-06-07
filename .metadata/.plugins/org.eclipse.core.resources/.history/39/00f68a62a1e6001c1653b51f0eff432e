@@ -1,0 +1,14 @@
+package entities;
+
+public class Caixa {
+
+	public double calculaValorFinal(Produto produto, int quantidade) {
+		if (produto.getTipo() == 1) {
+			return (produto.getValor()*quantidade);
+		}
+		if (produto.getTipo() == 2){
+			return 
+		}
+		return produto.getValor() * quantidade;
+	}
+}

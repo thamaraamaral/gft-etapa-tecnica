@@ -1,0 +1,28 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+	    
+	    Scanner scanner = new Scanner (System.in);
+	    System.out.println("programa para mostrar vetor");
+	    System.out.println("Digite os 3 valores do vetor sequencialmente e sem espaços");
+	    
+	    int[] numeros = new int[10];
+	    for(int i = 0; i < 3; i++){
+	         System.out.print("Digite um número: ");
+	         numeros[i] = scanner.nextInt();
+	    }
+
+	    System.out.println("\n----------------Informando números digitados---------------------\n") ;      
+
+	    for(int n : numeros) {
+	          System.out.println("Número: " + n);
+		
+
+	}
+
+	}}

@@ -1,0 +1,21 @@
+package entities;
+
+public class Produto {
+
+	private String nome;
+	private double valor;
+	private int tipo;
+	
+	public Produto() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Produto(String nome, double valor, int tipo) {
+		super();
+		this.nome = nome;
+		this.valor = valor;
+		this.tipo = tipo;
+	}
+	
+	
+}

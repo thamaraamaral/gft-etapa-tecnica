@@ -1,0 +1,17 @@
+package principal;
+
+import java.util.Hashtable;
+
+import entities.Produto;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto();
+		
+		Hashtable<String, Double> hashtable = new Hashtable<String, Double>();
+
+		hashtable.put("Banana", 0.99f);
+}
+}

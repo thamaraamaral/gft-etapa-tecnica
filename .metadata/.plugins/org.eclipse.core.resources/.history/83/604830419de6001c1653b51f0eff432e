@@ -1,0 +1,28 @@
+public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(new InputStreamReader(System.in));
+
+    String[] lista = new String[10];
+
+    for (int i = 0; i < lista.length; i++) {
+        String insereNome = scanner.next();
+
+        if (procuraNomeNaLista(lista, i, insereNome)) {
+            System.out.println("ja existe esse nome");
+        } else {
+            lista[i] = insereNome;
+            System.out.println("Registrado");
+        }
+    }
+
+}
+
+private static Boolean procuraNomeNaLista(String[] lista, int posicaoAtual, String nome) {
+    for(int i = 0; i < posicaoAtual; i++) {
+        if(lista[i].equals(nome)) {
+            return true;
+        }
+    }
+
+    return false;
+}

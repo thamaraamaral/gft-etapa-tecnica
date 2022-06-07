@@ -1,0 +1,18 @@
+package principal;
+
+import java.util.Random;
+
+
+public class Program {
+
+    public static void main(String[] args) {
+
+        Random geradorAleatorios = new Random();
+
+        geradorAleatorios.nextInt(11);
+        
+        
+        
+        
+    }
+}
